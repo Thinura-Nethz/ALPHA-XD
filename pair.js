@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ALPHA XD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/PBKWD6C7GKASH1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/DgkRi449IO565xc2UZGcvA*`;
+            const sid = `*ALPHA XD [The powerful WA BOT]*\n\n\ n\n*📡 Successfully Connected to WhatsApp!* \n\n*Welcome to ALPHA XD! 🎉*\n\n*You can ask any question using this link*\n\n*wa.me/message/PBKWD6C7GKASH1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/DgkRi449IO565xc2UZGcvA*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
