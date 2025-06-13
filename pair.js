@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await AngleXPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-AngleX/Bot-Helper/refs/heads/main/autoimage/Bot%20angle%20WP.jpg",
+                url: "https://github.com/Thinura-Nethz/AngleX-web-pair-/blob/main/ChatGPT%20Image%20Jun%2013%2C%202025%2C%2002_36_47%20PM.png",
               },
               caption: sid,
             });
