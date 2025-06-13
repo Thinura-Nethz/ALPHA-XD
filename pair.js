@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*AngleX [The powerful WA BOT]*\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*https://wa.me/message/PBKWD6C7GKASH1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/DgkRi449IO565xc2UZGcvA*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*⚡AngleX [The powerful WA BOT]*\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*https://wa.me/message/PBKWD6C7GKASH1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/DgkRi449IO565xc2UZGcvA*`;
+            const mg = `🛑*Do not share this code to anyone*🛑`;
             const dt = await AngleXPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/Thinura-Nethz/AngleX-web-pair-/blob/main/ChatGPT%20Image%20Jun%2013%2C%202025%2C%2002_36_47%20PM.png",
+                url: "https://raw.githubusercontent.com/Thinura-Nethz/bot-img/refs/heads/main/ChatGPT%20Image%20Jun%2013%2C%202025%2C%2004_35_42%20PM.png",
               },
               caption: sid,
             });
